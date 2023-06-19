@@ -6,6 +6,7 @@ let users = [
     {id:22, name: 'dalong2'},
     {id:33, name: 'dalong3'},
     {id:44, name: 'dalong4'},
+    {id:55, name: 'dalong5'},
 ]
 http.createServer((req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*') //任意域名都可以访问,或者基于我请求头里面的域
